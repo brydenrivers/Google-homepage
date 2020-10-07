@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.wrapper{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    padding-right: 15px;
+}
+li:last-child  {
+    padding-right: 0;
+}
+a{
+    text-decoration: none;
+    color: #505050;
+}
+a:hover{
+    text-decoration: underline;
+}
+input{
+    width: 100%;
+    border-style: none;
+}
+input:focus {
+    outline:none;
+}
+/*
+HEADER
+*/
+.header{
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*TOP AND BOTTOM NAV-BARS*/
+ul.left-bar{
+    display: flex;
+}
+
+
+ul.right-bar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-nav{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color: #F2F2F2;
+    padding: 15px 30px;
+    border-top:1px solid #c0c0c0;
+}
+.sign-in{
+    background-color: #4584EF;
+    padding: 8px 14px;
+    border-radius: 2px;
+    color: white;
+    font-weight: 200;
+    text-decoration: none;
+}
+.sign-in:hover{text-decoration: none;}
+/*
+Main bar Content and Logo
+*/
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-bar ul, .search-buttons ul{
+    display: flex;
+    justify-content: center;
+}
+.search-bar ul{
+    margin-top: 20px;
+    border:1px solid #c0c0c0;
+    border-radius: 50px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-bar ul:hover{box-shadow: 1px 1px 7px -3px #505050;}
+.search-buttons li{
+    border:1px solid #f2f2f200;
+    margin-top: 20px;
+    padding: 10px;
+    background-color:#F2F2F2;
+    border-radius: 3px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.search-buttons li:hover{
+    border:1px solid #c0c0c0;
+    box-shadow: 1px 2px 3px -3px #505050;
+}
+.search-buttons a:hover{text-decoration: none;}
+.search-bar{
+    width: 35%;
+}
+.search-bar .bar{
+    flex-grow: 3;
+}
+.search-bar a{font-size: 18px;}
+
+
+
